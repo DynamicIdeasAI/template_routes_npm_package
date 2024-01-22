@@ -1,6 +1,6 @@
 import type { DemoRouteType } from './type/demo.type';
 
-export class OfficialWebsiteApiRoute {
+export default class ApiRoute {
   static Product: DemoRouteType = {
     path: '/demos',
     get: { ids: [] }
