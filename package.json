@@ -1,5 +1,5 @@
 {
-  "name": "@dynamicideas/routes_npm_package",
+  "name": "@dynamicideas/package-name",
   "version": "0.8.0",
   "description": "API routes.",
   "main": "dist/index.js",
