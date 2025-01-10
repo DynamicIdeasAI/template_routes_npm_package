@@ -1,4 +1,4 @@
-import { BaseRouteType, BaseRequestType } from '@dynamicideas/base-types';
+import { BaseRouteType, BaseRequestType } from '@dynamic-ideas/base-types';
 
 interface DemoRouteType extends BaseRouteType {
   get: DemoGetRequestType;
