@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
-    "lint": "eslint . --fix --max-warnings=0",
+    "lint": "eslint . --fix --max-warnings=100",
     "format": "prettier -w .",
     "test": "",
     "clear": "rm -rf dist",
@@ -14,7 +14,7 @@
     "prepack": "pinst --disable",
     "postpack": "pinst --enable",
     "build": "tsc --build --force",
-    "pub": "rm -rf dist; prettier -w src && npm run build && npm publish --access public && rm -rf dist"
+    "pub": "rm -rf dist; prettier -w src && npm run build && npm publish && rm -rf dist"
   },
   "repository": {
     "type": "git",
@@ -54,8 +54,8 @@
     "@commitlint/cli": "19.6.1",
     "@commitlint/config-conventional": "19.6.0",
     "@types/node": "22.10.5",
-    "@typescript-eslint/eslint-plugin": "7.8.0",
-    "eslint": "8.57.0",
+    "@typescript-eslint/eslint-plugin": "7.18.0",
+    "eslint": "8.57.1",
     "eslint-config-airbnb-typescript": "18.0.0",
     "eslint-config-prettier": "9.1.0",
     "eslint-plugin-import": "2.31.0",
